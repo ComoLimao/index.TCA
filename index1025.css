@@ -1,0 +1,116 @@
+html, body {
+    height: 100%; /*faz com que a página ocupe toda sua altura*/
+    background:url(img/background.jpeg)
+    }
+    
+    * {
+    margin: 0; /*as margens poderiam estragar tudo*/
+    }
+
+    #topo {
+        padding:0px;
+        width:100%;
+    }
+    
+    #conteudo {
+    height: 100%; /*empurra o rodapé para baixo */
+    width:90%;
+    left:2%;
+    position: relative;
+
+    }
+    
+    .rodape {
+      height: 100px; /*ajusta a altura do rodapé*/
+      margin-top: -50px;/*estes números devem ser opostos*/
+      background:#000;
+      position: absolute;
+      width: 100%;
+
+    }
+    #titulo {
+        color:#0000b3;
+        font-family: verdana;
+        font-size: 24px;
+    }
+    p {
+        color:#0000b3;
+        font-family:Verdana, Tahoma, sans-serif;
+        font-size: 16px;
+    }
+    #abertura {
+        width: 100%;
+        left:3%;
+        top:10px;
+
+    }
+    h2 {
+        left:30%;
+        text-align: center;
+        color:#0000b3;
+        top:40%;
+        position: absolute;
+    }
+    #salao {
+        width:480px;
+        height: 480px;
+
+    }
+    iframe {
+        width:100%;
+        height:190px;
+            }
+    .tel {
+        height:40px;
+        width: 40px;
+        top:18%;
+        left:37%;
+        position: absolute;
+
+    }
+    .whats {
+        height:40px;
+        width:40px;
+        top:18%;
+        left:58%;
+        position: absolute;
+    }
+    #numero {
+        color:#fff;
+        top:30%;
+        left:42%;
+        position: absolute;
+
+
+    }
+    #gmail {
+        color:#fff;
+        top:50%;
+        left:42.5%;
+        position: absolute;
+
+    }
+/*MENU*/
+.minu {
+    height:66px;
+    width: 56%;
+    top:0%;
+    left:44%;
+    position:fixed;
+    background:#e6e6e6
+}
+#sobre, #servicos {
+    color:#262626;
+    font-family:verdana;
+    font-size:24px;
+    top:25%;
+    position: absolute;
+    text-decoration: none;
+    ;
+}
+#servicos {
+    left:150px;
+}
+#sobre {
+    left:50px;
+}
